@@ -27,10 +27,10 @@ Extend Your Mac's Battery Life. A smart Menu Bar app that notifies you when to p
 ## ⬇️ Download / ดาวน์โหลด
 
 **[EN]** You can download the latest version of the installer (`.dmg`) from the **Releases** page:
-* 🔗 [Download ks3080 v1.0](https://github.com/ksplayfort/ks3080/releases/tag/v1.0)
+* 🔗 [Download KSMacExplorer (Latest Release)](https://github.com/ksplayfort/ks3080/releases/latest)
 
 **[TH]** คุณสามารถดาวน์โหลดตัวติดตั้งเวอร์ชันล่าสุด (`.dmg`) ได้ที่หน้า **Releases**:
-* 🔗 [ดาวน์โหลด ks3080 v1.0](https://github.com/ksplayfort/ks3080/releases/tag/v1.0)
+* 🔗 [ดาวน์โหลด KSMacExplorer (เวอร์ชันล่าสุด)](https://github.com/ksplayfort/ks3080/releases/latest)
   
 ---
 
