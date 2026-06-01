@@ -7,7 +7,11 @@ Extend Your Mac's Battery Life. A smart Menu Bar app that notifies you when to p
 ![Swift](https://img.shields.io/badge/Swift-Native-orange.svg)
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
+**[EN]** 
+
 **ks3080** is a smart Menu Bar app that notifies you when to plug in or unplug your charger to maintain optimal battery health. The architecture and codebase of this application were crafted entirely by AI and built 100% with native Swift.
+
+**[TH]** 
 
 **ks3080** คือแอปพลิเคชันบน Menu Bar ที่คอยแจ้งเตือนให้คุณชาร์จหรือถอดสายชาร์จในเวลาที่เหมาะสม เพื่อถนอมสุขภาพแบตเตอรี่ โค้ดทั้งหมดถูกสร้างขึ้นโดย AI พัฒนาด้วย Swift แท้ 100%
 
@@ -15,61 +19,99 @@ Extend Your Mac's Battery Life. A smart Menu Bar app that notifies you when to p
 
 ## ✨ Features / คุณสมบัติเด่น
 
-* **🔋 Menu Bar Integration:** Sits quietly in your Menu Bar, giving you a real-time view of your battery percentage. (ซ่อนตัวเงียบๆ บน Menu Bar ตรวจสอบระดับเปอร์เซ็นต์แบตเตอรี่แบบเรียลไทม์)
-* **🔔 Smart Notifications:** Alerts you instantly when the battery reaches critical levels or optimal charge targets. (แจ้งเตือนอัตโนมัติเมื่อแบตเตอรี่ลดถึงระดับที่กำหนด หรือเมื่อชาร์จถึงระดับที่เหมาะสม)
-* **🤖 AI-Generated Code:** Crafted entirely by AI technology. (ออกแบบโครงสร้างและเขียนโค้ดทั้งหมดด้วยเทคโนโลยี AI)
-* **🪶 Ultra Lightweight:** Runs as a background process, consuming virtually no CPU or RAM. (ทำงานเบื้องหลังสุดเบา กินทรัพยากรเครื่องน้อยมาก)
-* **⏱️ Auto Monitoring:** Reads low-level macOS power sources (IOKit) and updates accurately every 60 seconds. (เช็คสถานะระบบลึกของ macOS อัปเดตข้อมูลแม่นยำทุก 60 วินาที)
-* **⚡ Native Swift:** Built with pure Swift for maximum performance and stability. (พัฒนาด้วยภาษา Swift แท้ๆ เพื่อความเสถียรสูงสุด)
+**[EN]** 
+
+* **🔋 Menu Bar Integration:** Sits quietly in your Menu Bar, giving you a real-time view of your battery percentage.
+* **🔔 Smart Notifications:** Alerts you instantly when the battery reaches critical levels or optimal charge targets.
+* **🤖 AI-Generated Code:** Crafted entirely by AI technology.
+* **🪶 Ultra Lightweight:** Runs as a background process, consuming virtually no CPU or RAM.
+* **⏱️ Auto Monitoring:** Reads low-level macOS power sources (IOKit) and updates accurately every 60 seconds.
+* **⚡ Native Swift:** Built with pure Swift for maximum performance and stability.
+
+**[TH]** 
+
+* **🔋 Menu Bar Integration:** ซ่อนตัวเงียบๆ บน Menu Bar ตรวจสอบระดับเปอร์เซ็นต์แบตเตอรี่แบบเรียลไทม์
+* **🔔 Smart Notifications:** แจ้งเตือนอัตโนมัติเมื่อแบตเตอรี่ลดถึงระดับที่กำหนด หรือเมื่อชาร์จถึงระดับที่เหมาะสม
+* **🤖 AI-Generated Code:** ออกแบบโครงสร้างและเขียนโค้ดทั้งหมดด้วยเทคโนโลยี AI
+* **🪶 Ultra Lightweight:** ทำงานเบื้องหลังสุดเบา กินทรัพยากรเครื่องน้อยมาก
+* **⏱️ Auto Monitoring:** เช็คสถานะระบบลึกของ macOS อัปเดตข้อมูลทุก 60 วินาที
+* **⚡ Native Swift:** พัฒนาด้วยภาษา Swift แท้ๆ เพื่อความเสถียรสูงสุด
+
+
 
 ---
 
 ## ⬇️ Download / ดาวน์โหลด
 
-**[EN]** You can download the latest version of the installer (`.dmg`) from the **Releases** page:
+**[EN]** 
+
+You can download the latest version of the installer (`.dmg`) from the **Releases** page:
 * 🔗 [Download KSMacExplorer (Latest Release)](https://github.com/ksplayfort/ks3080/releases/latest)
 
-**[TH]** คุณสามารถดาวน์โหลดตัวติดตั้งเวอร์ชันล่าสุด (`.dmg`) ได้ที่หน้า **Releases**:
+**[TH]** 
+
+คุณสามารถดาวน์โหลดตัวติดตั้งเวอร์ชันล่าสุด (`.dmg`) ได้ที่หน้า **Releases**:
 * 🔗 [ดาวน์โหลด KSMacExplorer (เวอร์ชันล่าสุด)](https://github.com/ksplayfort/ks3080/releases/latest)
   
 ---
 
 ## 🛠 Setup & Installation Guide / วิธีตั้งค่าเพื่อใช้งาน
 
-### 1. Allowing the App to Run / การอนุญาตให้รันแอปพลิเคชัน
-Because this app is not distributed via the Mac App Store, macOS might block it initially. Choose one of the following methods to open it:
-*(เนื่องจากแอปไม่ได้โหลดจาก App Store ระบบอาจบล็อกการเปิดใช้งานครั้งแรก ให้เลือกใช้วิธีใดวิธีหนึ่งดังนี้)*
+**[EN]** 
 
-* **Method 1 (Easiest) / วิธีที่ 1 (ง่ายที่สุด):** Right-Click (or Control-Click) the `ks3080` app icon and select "Open". Click confirm when prompted.
-    *(คลิกขวาที่ไอคอนแอป แล้วเลือก "Open" จากนั้นคลิกยืนยันการเปิดอีกครั้ง)*
-* **Method 2 (System Settings) / วิธีที่ 2 (ผ่านตั้งค่าระบบ):** Go to `System Settings` > `Privacy & Security`. Scroll down until you see a message blocking ks3080. Click "Open Anyway".
-    *(ไปที่ System Settings > Privacy & Security เลื่อนลงไปด้านล่างสุด คลิกปุ่ม "Open Anyway")*
-* **Method 3 (Using Terminal) / วิธีที่ 3 (ผ่าน Terminal):** If macOS says the app is "Damaged", open the Terminal app and run the command below (assuming you placed the app in the Applications folder).
-    *(กรณีที่แอปถูกฟ้องว่า "Damaged" ให้เปิด Terminal แล้วพิมพ์คำสั่งด้านล่างนี้)*
+### 1. Allowing the App to Run
+Because this app is not distributed via the Mac App Store, macOS might block it initially. Choose one of the following methods to open it:
+
+* **Method 1 (Easiest):** Right-Click (or Control-Click) the `ks3080` app icon and select "Open". Click confirm when prompted.
+* **Method 2 (System Settings):** Go to `System Settings` > `Privacy & Security`. Scroll down until you see a message blocking ks3080. Click "Open Anyway".
+* **Method 3 (Using Terminal):** If macOS says the app is "Damaged", open the Terminal app and run the command below (assuming you placed the app in the Applications folder).
     ```bash
     xattr -cr /Applications/ks3080.app
     ```
 
-### 2. Enabling Notifications / การอนุญาตให้แสดงแจ้งเตือน
+### 2. Enabling Notifications
 * On first launch, the app will ask for notification permission. Click **"Allow"**.
-    *(เมื่อเปิดแอปครั้งแรก ระบบจะเด้งหน้าต่างขออนุญาตแจ้งเตือน ให้กด **"Allow"**)*
 * If you missed it, you can enable it manually: Go to **System Settings > Notifications > Find ks3080 > Toggle "Allow notifications" on**.
-    *(หากเผลอกดปิดไป ให้ไปที่: **System Settings > Notifications > ค้นหาแอป ks3080 > เปิดสวิตช์ "Allow notifications"**)*
+
+**[TH]** 
+
+### 1. การอนุญาตให้รันแอปพลิเคชัน
+เนื่องจากแอปไม่ได้โหลดจาก App Store ระบบอาจบล็อกการเปิดใช้งานครั้งแรก ให้เลือกใช้วิธีใดวิธีหนึ่งดังนี้:
+
+* **วิธีที่ 1 (ง่ายที่สุด):** คลิกขวาที่ไอคอนแอป แล้วเลือก "Open" จากนั้นคลิกยืนยันการเปิดอีกครั้ง
+* **วิธีที่ 2 (ผ่านตั้งค่าระบบ):** ไปที่ `System Settings` > `Privacy & Security` เลื่อนลงไปด้านล่างสุด คลิกปุ่ม "Open Anyway")
+* **วิธีที่ 3 (ผ่าน Terminal):** กรณีที่แอปถูกฟ้องว่า "Damaged" ให้เปิด Terminal แล้วพิมพ์คำสั่งด้านล่างนี้
+    ```bash
+    xattr -cr /Applications/ks3080.app
+    ```
+
+### 2. การอนุญาตให้แสดงแจ้งเตือน
+* เมื่อเปิดแอปครั้งแรก ระบบจะเด้งหน้าต่างขออนุญาตแจ้งเตือน ให้กด **"Allow"**
+* หากเผลอกดปิดไป ให้ไปที่: **System Settings > Notifications > ค้นหาแอป ks3080 > เปิดสวิตช์ **"Allow notifications"**)
 
 ---
 
 ## 👨‍💻 Developer / ผู้พัฒนา
 
+**[EN]** 
+
 **Developed by KS** Independent developer utilizing the power of AI to create useful tools for macOS.  
+
+**[TH]** 
+
 *(นักพัฒนาแอปพลิเคชันอิสระ ผู้ประยุกต์ใช้พลังของ AI ในการสร้างเครื่องมือที่มีประโยชน์บน macOS)*
 
 ---
 
 ## ⚠️ Disclaimer / ข้อสงวนสิทธิ์ในการรับผิดชอบ
 
-**[EN]** This software is provided "as is", without warranty of any kind, express or implied. The developer makes no guarantees regarding the accuracy, reliability, or completeness of the software. In no event shall the developer be liable for any claim, damages (including hardware damage or battery degradation), data loss, or other liability arising from the use of this software. You use this application entirely at your own risk.
+**[EN]** 
 
-**[TH]** ซอฟต์แวร์นี้ถูกจัดเตรียมให้ "ตามสภาพ" (As is) โดยไม่มีการรับประกันใดๆ ทั้งสิ้น ไม่ว่าโดยชัดแจ้งหรือโดยนัย ผู้พัฒนาไม่รับรองความถูกต้อง ความน่าเชื่อถือ หรือความสมบูรณ์ของซอฟต์แวร์นี้ ผู้พัฒนาจะไม่รับผิดชอบต่อความเสียหายใดๆ (รวมถึงความเสียหายต่อฮาร์ดแวร์ หรือการเสื่อมสภาพของแบตเตอรี่) การสูญหายของข้อมูล หรือปัญหาใดๆ ที่เกิดขึ้นจากการใช้งานแอปพลิเคชันนี้ ผู้ใช้ต้องยอมรับความเสี่ยงในการใช้งานด้วยตนเองทั้งหมด
+This software is provided "as is", without warranty of any kind, express or implied. The developer makes no guarantees regarding the accuracy, reliability, or completeness of the software. In no event shall the developer be liable for any claim, damages (including hardware damage or battery degradation), data loss, or other liability arising from the use of this software. You use this application entirely at your own risk.
+
+**[TH]** 
+
+ซอฟต์แวร์นี้ถูกจัดเตรียมให้ "ตามสภาพ" (As is) โดยไม่มีการรับประกันใดๆ ทั้งสิ้น ไม่ว่าโดยชัดแจ้งหรือโดยนัย ผู้พัฒนาไม่รับรองความถูกต้อง ความน่าเชื่อถือ หรือความสมบูรณ์ของซอฟต์แวร์นี้ ผู้พัฒนาจะไม่รับผิดชอบต่อความเสียหายใดๆ (รวมถึงความเสียหายต่อฮาร์ดแวร์ หรือการเสื่อมสภาพของแบตเตอรี่) การสูญหายของข้อมูล หรือปัญหาใดๆ ที่เกิดขึ้นจากการใช้งานแอปพลิเคชันนี้ ผู้ใช้ต้องยอมรับความเสี่ยงในการใช้งานด้วยตนเองทั้งหมด
 
 ---
 
